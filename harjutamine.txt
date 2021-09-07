@@ -1,2 +1,3 @@
-Mina saan kasutada githubi kooli jaoks ning ka vabalajal programeerimiseks.
-omandada uusi oskusi.
+Githubi kasutatakse tarkavrarendamises ning programeerimises.
+Omandada uusi oskusi ja kooliks kasutada.
+GitHub Inc. asutati Chris Wanstrathi, P. J. Hyetti, Tom Preston-Werneri ja Scott Chaconi poolt San Franciscos aastal 2007. GitHubi teenus muutus kättesaadavaks 2008. aasta veebruaris
