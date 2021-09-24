@@ -1,0 +1,130 @@
+
+DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name= "viewpoint" content="width=device-width, initial-scale=1.0">
+ <tiltle>Document</title>
+<style>
+  .red {
+  color:red ;
+  }
+</style>
+ </head>
+</body>
+ <ul>
+      <li>Crossroad gardens, 88</li>
+      <li>Strawberry Mountain lands,88</li>
+      <li>Weeping Willow Acres, 88</li>
+ </ul>
+ <script>
+     let a = 123;
+     console.log(a)
+     document.body // DOM element
+     console.log(document)
+     document.querySelector("red")
+ </script>
+ 
+ DOM CRUD
+ 
+ // Create
+ let element = document.createElement("li")
+ document.body.append(element)
+ element.append(otherElement)
+ 
+ 
+ // Read
+ document.querySelector(".red") // <
+ document.querySelectorAll(".red")
+ // Update
+ element.className = "green" // vahetab elemendi klassi nime<
+ // Delete
+ 
+ 
+ console.log(offers[0][0])
+ console.log(offers[1][0])
+ console.log(offers[0][1])
+ console.log(offers[1][1])
+ 
+ offers=[["Crossroad Gardens", "88"],["Strawberry Mountain Lands", "57"]]
+ 
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name= "viewpoint" content="width=device-width, initial-scale=1.0">
+ <tiltle>Document</title>
+<style>
+  .red {
+  color:red ;
+  }
+</style>
+ </head>
+</body>
+  <li class="red">Crossroad Gardens, 88</li>
+  
+  
+  
+ TÕÕTAV KOOD !!!!!
+ 
+ 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name= "viewpoint" content="width=device-width, initial-scale=1.0">
+ <tiltle>Document</title>
+<style>
+  .red {
+  color:red ;
+  }
+</style>
+ </head>
+</body>
+  <li class="red">Crossroad Gardens, 88</li>
+  <li class="red green">Strawberry Mountain Lands, 88</li>
+  <li class="green">Weeping Willow Acres, 88</li>
+  <li>Tekst</li>
+ <ul>
+      <li>Crossroad gardens, 88</li>
+      <li>Strawberry Mountain lands,88</li>
+      <li>Weeping Willow Acres, 88</li>
+ </ul>
+ <script>
+     offers=[["Crossroad Gardens", "88"],["Strawberry Mountain Lands", "57"]]
+
+ console.log(offers[0][0])
+ console.log(offers[1][0])
+ console.log(offers[0][1])
+ console.log(offers[1][1])
+
+ let li = document.createElement("li")
+ li.append(offers[0][0])
+ document.body.append(li)
+ </script>
+ </body>
+ <html></html>
+
+  <li class="red green">Strawberry Mountain Lands, 88</li>
+  <li class="green">Weeping Willow Acres, 88</li>
+  <li>Teks</li>
+ <ul>
+      <li>Crossroad gardens, 88</li>
+      <li>Strawberry Mountain lands,88</li>
+      <li>Weeping Willow Acres, 88</li>
+ </ul>
+ <script>
+     offers=[["Crossroad Gardens", "88"],["Strawberry Mountain Lands", "57"]]
+
+ console.log(offers[0][0])
+ console.log(offers[1][0])
+ console.log(offers[0][1])
+ console.log(offers[1][1])
+
+ let li = document.createElement("li")
+ li.append(offers[0][0])
+ document.body.append(li)
+ </script>
+ </body>
+ <html></html>
