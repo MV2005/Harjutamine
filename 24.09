@@ -42,6 +42,8 @@ fruits[4].length-1
 9
 //
 
+fruits.length-1
+fruits [ 8 ]
 
 
 // indexOf - kus positsioonil element arrays on
