@@ -1,0 +1,79 @@
+CRUD - (list, massiv, array, nimekiri)
+create
+read
+update
+delete
+
+w3bschool javascript
+array methots
+js objets
+
+online ocr - tuvastab pildi teksti
+
+array CRUD
+create
+[]
+["test",2,3,null]
+console.log([]);
+let list = []
+Read
+
+let list = ["test",2,3,null]
+//Read
+list[0] // "test"
+list[1] // 2
+List[2] // 3
+List[3] // null
+list[4] // undefined
+
+list.length // mitu elementi listis on
+// viiast elementi listis on
+list
+// eelvimane element
+list
+
+
+//proov
+fruits.length-1
+-1
+fruits[4]
+'watermelon'
+fruits[4].length-1
+9
+//
+
+
+
+// indexOf - kus positsioonil element arrays on
+// -1 on et ei ole arrays
+fruits.indexOf("pear") // -1
+fruits.indexOf("apple") // 2
+
+fruits.includes("pear") // false
+fruits.includes("apple") // true
+
+list.filter(elem => elem > 0) //2,3
+// Update
+list.push("kivi")       kui tahame midagi juurde panna listi
+fruits[4] = "watermelon"  asendab  4 ja kirjuta üle mis sellel neljandal oli
+list[4] } "not null"
+//esimene number on positsioon/index
+// teine number on mitu ära kustutada
+// kolmas,neljas, viies jne on mida juurde lisada
+
+fruits.splice(2,0,"plum") // lisab kolmanda elemendi plum
+// Delete
+fruits.pop()
+fruits.splice(2,1) // kustutab kolmanda elemendi ära
+
+let fruits = ["apple","banana","pear",]
+undefined
+fruits.indexOf("apple")
+0
+fruits.indexOf("banana")
+1
+fruits.indexOf("pear")
+2
+
+
+
