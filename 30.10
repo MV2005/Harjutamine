@@ -104,3 +104,12 @@ VM253:1 0
 VM253:6 1
 VM253:6 2
 VM253:6 3
+---------------------------
+
+let arr = [5,8,4,2,3,1]
+for (let i = 0; 1 < arr.length; i++) {
+if ( arr[1] > 4)
+ console.log("läks esimene")
+ else
+  console.log("läks teine")
+  }
