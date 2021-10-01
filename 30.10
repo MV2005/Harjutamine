@@ -1,0 +1,106 @@
+let i;
+for
+ (
+i
+ = 
+0
+; 
+i
+ < 
+10
+; 
+i++
+) {
+  console.log(i);
+}
+
+
+let i;
+for
+ (
+i
+ = 
+50
+; 
+i
+ > 
+0
+; 
+i--
+) {
+  console.log(i);
+}
+
+---------------
+console.log(n);
+let n = 0;
+
+while (n < 3) {
+  n++;
+  console.log(n);
+}
+-------------
+
+let arr = [ 5,8,4,2,3,1];
+for (let i = 0; arr < arr.length; i++) {
+ arr[i]++
+ }
+ 
+ 
+ let arr = [5,8,4,2,3,1];
+for (let i = 0; i < arr.length; i++) {
+console.log(i)
+ arr[i]++
+ }
+ 
+  let arr = [5,8,4,2,3,1];
+for (let i = 0; i < arr.length; i++) {
+console.log(i)
+ if (arr[i] > 4) console.log(arr[1])
+ }
+ 
+   let arr = [5,8,4,2,3,1];
+for (let i = 0; i < arr.length; i++) {
+console.log(i)
+ if (arr[i] > 4) {
+ console.log(arr[i])
+ } else {
+ 
+  }
+ }
+ ------------------------------------
+ let arr = [5,8,4,2,3,1];
+for (let i = 0; i < arr.length; i++) {
+ if (arr[i] > 4) {
+ console.log(arr[i])
+ } else {
+ console.log(arr[i])
+  }
+ }
+--------------------
+ console.log(n);
+let n = 0;
+
+while (n < 3) {
+  n++;
+  console.log(n);
+}
+VM253:1 0
+VM253:6 1
+VM253:6 2
+VM253:6 3
+
+
+-----------------------
+
+console.log(n);
+let n = 0;
+
+while (n < 3) {
+  n++;
+  console.log(n);
+}
+VM253:1 0
+VM253:6 1
+VM253:6 2
+VM253:6 3
