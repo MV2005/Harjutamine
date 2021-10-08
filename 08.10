@@ -31,3 +31,30 @@ while (password != "qwe123")
         break
 }
 console.log("said sisse")
+----------------------------------------------------
+prompt("Sisesta üks number 1-10-ni")
+'5'
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+undefined
+function randomIntFromInterval(min, max) { 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const rndInt = randomIntFromInterval(1, 6)
+console.log(rndInt)
+VM691:6 5
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "5") {
+  alert("Yay, sa arvasid õige numbri ära");
+}
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "2") {
+  alert("Sorry, 2 ei ole õige number");
+}
+undefined
