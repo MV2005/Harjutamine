@@ -25,20 +25,19 @@ while (password != X)
 console.log("Yay, sa arvasid õige numbri ära")
 --------------------------------------------------
 
-poolik??
+HINNE 4 oma
 
-let Mitukordaproovinud = 3
+let Katseidjärgi = 3
 let X = Math.floor(Math.random() * 10) + 1
 console.log(X)
-password = prompt("Mis on õige number?")
-while (password != X)
-{
-    Mitukordaproovinud++
-    console.log("On proovinud", Mitukordaproovinud)
+while (Katseidjärgi > 0){
+    Katseidjärgi--
+    console.log("On proovinud", Katseidjärgi)
 
-    alert("Sorry, X ei ole õige number")
     password = prompt("Sisesta number")
     if (password == X)
         break
+    else 
+        alert("Sorry, X ei ole õige number") 
 }
 console.log("Yay, sa arvasid õige numbri ära")
