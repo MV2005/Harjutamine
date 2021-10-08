@@ -69,3 +69,4 @@ while (password != "5")
 }
 console.log("Yay, sa arvasid õige numbri ära")
 VM873:9 Yay, sa arvasid õige numbri ära
+-------------------------
