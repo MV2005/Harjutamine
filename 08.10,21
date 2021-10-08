@@ -1,0 +1,25 @@
+ÕIGED hinne 3 omad
+
+let X = Math.floor(Math.random() * 10) + 1
+console.log(X)
+password = prompt("Mis on õige number?")
+while (password != X)
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == X)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+--------------------------------------------------------
+let X = Math.floor(Math.random() * 10) + 1
+console.log(X)
+password = prompt("Mis on õige number?")
+while (password != X)
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == X)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
