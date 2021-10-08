@@ -58,3 +58,14 @@ if (sign.toLowerCase() == "2") {
   alert("Sorry, 2 ei ole õige number");
 }
 undefined
+------------------------------------
+password = prompt("Mis on õige number?")
+while (password != "5")
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == null)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+VM873:9 Yay, sa arvasid õige numbri ära
