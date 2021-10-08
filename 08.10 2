@@ -1,0 +1,125 @@
+ÕIGE 1
+prompt("Sisesta üks number 1-10-ni")
+'5'
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+undefined
+function randomIntFromInterval(min, max) { 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const rndInt = randomIntFromInterval(1, 6)
+console.log(rndInt)
+VM691:6 5
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "5") {
+  alert("Yay, sa arvasid õige numbri ära");
+}
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "2") {
+  alert("Sorry, 2 ei ole õige number");
+}
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "2") {
+  alert("Sorry, X ei ole õige number");
+}
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() == "5") {
+  alert("Sorry, X ei ole õige number");
+}
+undefined
+let sign = prompt("Mis on õige number?");
+
+if (sign.toLowerCase() !== "5") {
+  alert("Sorry, X ei ole õige number");
+}
+undefined
+password = prompt("Mis on õige number?")
+while (password != "5")
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == null)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+VM873:9 Yay, sa arvasid õige numbri ära
+undefined
+password = prompt("Mis on õige number?")
+while (password != "5")
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == null)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+VM969:9 Yay, sa arvasid õige numbri ära
+-----------------------------------------------
+
+prompt("Sisesta üks number 1-10-ni")
+'5'
+function randomIntFromInterval(min, max) { 
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+const rndInt = randomIntFromInterval(1, 6)
+console.log(rndInt)
+5
+password = prompt("Mis on õige number?")
+while (password != "5")
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == null)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+VM873:9 Yay, sa arvasid õige numbri ära
+------------------------------------------
+
+
+let Mitukordaproovinud = 0
+password = prompt("Sisesta parool")
+while (password != "
+{
+  mitukordaproovinud++
+  console.log("On proovinud", mitukordaproovinud)
+  
+  
+  
+  
+   if (X == 1,2,3,4,6,7,8,9,10)
+   
+   password = prompt("Mis on õige number?")
+while (password != "5")
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == X)
+     if (X == 1,2,3,4,6,7,8,9,10)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+--------------
+let X =Math.floor(Math.random() * 10) + 1
+console.log(X)
+password = prompt("Mis on õige number?")
+while (password != X)
+{
+    alert("Sorry, X ei ole õige number")
+    password = prompt("Sisesta number")
+    if (password == X)
+        break
+}
+console.log("Yay, sa arvasid õige numbri ära")
+
