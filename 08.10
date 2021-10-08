@@ -1,0 +1,33 @@
+prompt()
+'1'
+let tekst = prompt()
+undefined
+tekst
+','
+prompt()
+null
+while(prompt()) console.log("test")
+VM299:1 test
+undefined
+if (prompt("Sisesta parool") == "qwe123")
+    console.log("Õige parool")
+VM480:2 Õige parool
+undefined
+else
+VM496:1 Uncaught SyntaxError: Unexpected token 'else'
+if (prompt("Sisesta parool") == "qwe123")
+    console.log("Õige parool")
+undefined
+if (prompt("Sisesta parool") == "qwe123")
+    console.log("Õige parool")
+else
+--------------------------------------------------
+password = prompt("Sisesta parool")
+while (password != "qwe123")
+{
+    alert("Vale parool")
+    password = prompt("Sisesta parool")
+    if (password == null)
+        break
+}
+console.log("said sisse")
