@@ -30,3 +30,96 @@ function balanced_bonus(string){
 }
 -----------------------------------------------
 const main = str => Math.max(str.split("").sort().indexOf("Y"), 0) == str.length / 2;
+---------------------------------------------------
+unction count_char(c, str) {
+  var total = 0;
+  for (var i = 0; i < str.length; i++) {
+    if(str[i] == c) {
+      total = total + 1
+    }
+  }
+  return total;
+}
+
+function balanced_bonus(str) {
+  var counted = {};
+  var ref = count_char(str[0], str);
+  var isBalanced = true;
+
+  counted[str[0]] = true;
+  
+  for (var i = 1; i < str.length; i++) {  
+
+    if(counted[str[i]]) continue;
+
+    var char = str[i];
+    var count = count_char(char, str);
+    counted[char] = true;
+
+    if(ref != count) {
+      isBalanced = false;
+      break;
+    } 
+  }
+
+  return isBalanced;
+  
+}
+-------------------------------
+const data = ["xxxyyy","yyyxxx","xxxyyyy","yyxyxxyxxyyyyxxxyxyx","xyxxxxyyyxyxxyxxyy","","x"];
+
+var countCode = function(letter){
+var count=0;
+    for (var i=0;i<data.length;i+=1){
+        if (data[i].startsWith(letter)){
+            count++;
+        }
+    }
+    return count
+}
+function balanced_bonus(string){
+  let No_Of_Time = [];
+  let countCode = 0;
+  for (let i = 0; i<string.length; i++){
+    for (let x = 0; x < string.length; x++){
+      if (string[x] == string[i]){
+        countCode++;
+      }
+    }
+    No_Of_Time.push(same_count);
+    same_count = 0;
+  }
+
+  return checkSame(No_Of_Time);
+}
+--------------------------------
+
+smth
+
+const data = ["xxxyyy","yyyxxx","xxxyyyy","yyxyxxyxxyyyyxxxyxyx","xyxxxxyyyxyxxyxxyy","","x"];
+
+var countCode = function(letter){
+var count=0;
+    for (var i=0;i<data.length;i+=1){
+        if (data[i].startsWith(letter)){
+            count++;
+        }
+    }
+    return count
+}
+function balanced_bonus(string){ 
+ let count = [];
+ for (let i = 0; i<string.length; i++){
+ for (let x = 0; x < string.length; x++){
+   if (string[x] == string[i]){
+      countCode++;
+   }
+ }
+count.push(same_count);
+same_count = 0
+ }
+
+return CheckSame(count);
+}
+
+--------------------------
