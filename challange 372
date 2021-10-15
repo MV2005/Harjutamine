@@ -1,0 +1,15 @@
+function balanced(XYstring) {
+    let xCount = 0, yCount = 0;
+    for (let letter of XYstring) {
+        if (letter == "x") xCount++;
+        if (letter == "y") xCount++;
+    }; console.log(xCount == yCount);};
+
+function balanced_bonus(string) {
+    let matchObj = {};
+    for (let letter of string) {
+        if (letter in matchObj) { matchObj[letter] = (matchObj[leter] + 1);
+                                } else { matchObj[letter] = 1;
+                                       }} let valArr = Object.values(matchObj);
+    if (valArr.length == 1 || valArr.length == 0) { return true; }
+    else { return valArr.every( (val, i, arr) => val === arr[0]) }};
