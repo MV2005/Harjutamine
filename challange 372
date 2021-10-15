@@ -59,7 +59,7 @@ function balanced_bonus(str) {
        lepinguNr: ""
   }
   
-  töötaja name //"Timo"
+  töötaja name // "Timo"
   töötaja.vanus // undefined
   töötaja["name"] // "Timo"
   
