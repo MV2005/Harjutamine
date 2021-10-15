@@ -1,0 +1,32 @@
+function checkSame(count){
+  let same_count = 0;
+  for(let i =0; i < count.length; i++){
+    if(count[0] == count[i]){
+      same_count++;
+    }
+  }
+  if (same_count == count.length){
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+
+function balanced_bonus(string){
+  let No_Of_Time = [];
+  let same_count = 0;
+  for (let i = 0; i<string.length; i++){
+    for (let x = 0; x < string.length; x++){
+      if (string[x] == string[i]){
+        same_count++;
+      }
+    }
+    No_Of_Time.push(same_count);
+    same_count = 0;
+  }
+
+  return checkSame(No_Of_Time);
+}
+-----------------------------------------------
+const main = str => Math.max(str.split("").sort().indexOf("Y"), 0) == str.length / 2;
