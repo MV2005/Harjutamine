@@ -13,3 +13,63 @@ function balanced_bonus(string) {
                                        }} let valArr = Object.values(matchObj);
     if (valArr.length == 1 || valArr.length == 0) { return true; }
     else { return valArr.every( (val, i, arr) => val === arr[0]) }};
+
+
+-----------------------------------
+
+function balanced(tähed) {
+let str = "xxxyyy"
+let x = 0, y=0;
+for (let täht of str) {
+    if (täht == "x")
+    x++
+    if (täht == "y")
+    y++
+  }
+  return x == y
+}
+
+----------------
+
+function balanced(tähed) {
+    let x=0, y=0;
+    for (let täht of tähed) {
+       if (täht == 'x')
+         x++;
+      if (täht == 'y')
+         y++;
+    }
+    return x == y
+}
+
+function balanced_bonus(str) {
+      let founfletter = {};
+      for (let täht of tähed) {
+          if ()
+      }
+      return false;
+    }
+    
+   --------------------------
+   
+   Saab kontrollida asju nii;
+   
+   let töötaja = {
+       name:"Timo",
+       lepinguNr: ""
+  }
+  
+  töötaja name //"Timo"
+  töötaja.vanus // undefined
+  töötaja["name"] // "Timo"
+  
+  töötaja,lepingNr = "A11234"
+  
+  töötaja.HasOwnProperty("name") // true
+  töötaja.HasOwnProperty("vanus") // false
+  
+  delete töötaja.name
+  delete töötaja["name"]
+  töötja.name //  undefined
+  
+  --------------------------
