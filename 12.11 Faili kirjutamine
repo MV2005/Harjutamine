@@ -27,3 +27,18 @@ SMT??
 Klaviatuur;12354654;12.8;13;7
 Arvuti hiir;1235414;5.87;0;2
 tool;123;7;22;3;3
+
+-----------------------
+smt 2. harjutus
+
+fs.readFile('\\Users\\MM-21-271\\Desktop\\test.txt', content, err => {
+  if (err)  throw err; 
+    console.log("Failis on"+data);
+    let tooted= data.split('\n');
+    for(let i=0; i<tooted.length; i++) {
+      console.log("Toote nimi: "+tooted[i])
+
+    }
+
+});
+------------------------------
