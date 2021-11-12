@@ -1,3 +1,5 @@
+FAILI KIRJUTAMINE
+
 const fs = require('fs')
 
 const content = 'Some content!'
@@ -9,3 +11,19 @@ fs.writeFile('/Users/MM-21-271/test.txt', content, err => {
   }
   
 })
+----------------------
+FAILI LUGEMINE
+
+fs.readFile('\\Users\\MM-21-271\\Desktop\\test.txt', content, err => {
+  if (err)  throw err; 
+    console.error(err)
+    console.log("Failis on"+data);
+});
+
+------------------------
+SMT??
+
+
+Klaviatuur;12354654;12.8;13;7
+Arvuti hiir;1235414;5.87;0;2
+tool;123;7;22;3;3
