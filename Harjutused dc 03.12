@@ -6,3 +6,6 @@ const sum = [2,7,6,12,44,32,4,8,12,17].reduce((partial_sum, a) => partial_sum + 
 console.log(sum); 
 VM97:2 144
 ---
+2.
+let text = "2 7 6 12 44 32 4 8 12 17";
+const myArray = text.split(" ");
