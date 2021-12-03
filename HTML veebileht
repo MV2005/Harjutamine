@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="urf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1">
+        <title>Mjäu</title>
+        
+        <link rel="stylesheet" href="Untitled-2.css">
+    </head>
+    <body>
+        <body style="background-color:AntiqueWhite;"></body>
+        <h1>Hommik mjäuksid</h1>
+        <h3 style="color:Tan;">Leht for dog lovers</h3>
+        <img src="https://media.discordapp.net/attachments/847925756679028746/916226367165718538/4D651FC5-670F-457D-A06A-66C8A22D0DF8.jpg?width=638&height=630" width="400">
+        <p>
+           welcome to this totally working and functional thing
+        </p>
+        <p> If you want to learn more about the kittz of catz, check out </p>
+        <p><a href="https://www.youtube.com/watch?v=fJuapp9SORA">Compton city cat song</a></p>
+    </body>
+</html>
