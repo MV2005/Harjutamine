@@ -13,3 +13,22 @@ kus sa näed end 5 aasta pärast?
 
 */
 
+let tellimus = {
+    kogus: 7,
+    hinf: 12
+}
+
+class Tellimus {
+          tellijaNimi:
+          tellijaRegnr:
+          arveNR:
+          TOOTED = []
+          
+          }
+}
+
+let tellimus = new Tellimus()
+----------
+let toode = {
+
+summa()
