@@ -1,0 +1,12 @@
+/*
+arvude 1-100 puhul
+Pridi ekraanile foo kui arv jagub 3-ga
+prindi ekraanile foo kui arv jagub 5-ga
+prindi ekraanile foobar kui arv jagub 3 ja 5-ga
+
+Modulo operaator % - see on jagamistehe mis ütleb jäägi
+
+mis andmestruktuur on map või unassocative array
+
+*/
+
