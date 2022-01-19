@@ -3,14 +3,14 @@
 <head>
 <meta charset=`UTF-8`>
 <title> Rules </title>
-<style type=`tezt/test` media=`screen`>
+<style type=`text/test` media=`screen`>
 
 h1 { color : blue ; background : red ; }
 h2 { color : white ; background : green }
 p { color : red  }
 
 </style>
-</body>
+</head>
 
 <body>
 <h1 style=`color:blue;background:yellow`>Heading styled by CSS </h1>
@@ -18,3 +18,88 @@ p { color : red  }
 <p>Paragraph styled by CSS</p>
 </body>
 </html>
+
+----------------------
+Importance.CSS
+
+
+h2 {color : yellow!important }
+h2 {color : black}
+
+h2 {background : aqua } 
+body h2 { background : blue }
+    
+#headings-2 { background : moroon }
+h2#headings-2 { background : red }
+
+h2.headers { background : olive }
+body h2.header { background : green }
+
+-------------------------------------
+<!DOCKTYPE
+<html>
+<head>
+<meta charset=`UTF-8`>
+<title>Evaluating Importance </title>
+
+<link rel=`stylesheet` type=`text/css` href=`importance.css`>
+
+</head>
+
+...................................
+IMAGE REPEAT
+
+<style>
+
+span { background : yellow ; margin : 0 0 0 10em }
+
+p { background: url(title.png) funchia repeat ; height : 3.5em }
+
+p#x { background-reapeat : repeat-x }
+
+p#y { background-reapeat : repeat-y }
+
+p#no { background-reapeat : no-repeat }
+
+</style>
+
+----------------------------------
+
+
+<body>
+
+<h2>Element style</h2>
+
+<h2 id="heading-2`>Identity style </h2>
+
+<h2 class=`headers`>
+
+poolik
+-------------------------------
+image.html
+
+<img scr="fish.png" width="200" height="150" alt="Goofy Fish Image Large">
+<img scr="fish.png" width="150" height="112 alt="Goofy Fish Image Medium">
+<img scr="fish.png" width="100" height="75" alt="Goofy Fish Image Small">
+-------------------------------------------------------------
+Taustapilt
+
+<tiltle>Background Size</tiltle>
+<link rel="Stylesheet" type="text/css" href="background-size.css"
+    
+ </head>
+<body>
+
+    <div id="box-1"> </div>
+      <div id="box-2"> </div>
+      <div id="box-2"> </div>
+
+
+</body>
+
+div{ float : left ; margin : 10px ; height : 120px ; width : 120px , border : 5px solid black ; background : url( flower.png );}
+
+
+div#box-1 { background-size : 100%  100% }
+div#box-2 { background-size : 50%  50% }
+div#box-3 { background-size : 200%  200% }
