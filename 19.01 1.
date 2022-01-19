@@ -1,0 +1,20 @@
+<!DOCKTYPE HTML>
+<hrml lang=`en`>
+<head>
+<meta charset=`UTF-8`>
+<title> Rules </title>
+<style type=`tezt/test` media=`screen`>
+
+h1 { color : blue ; background : red ; }
+h2 { color : white ; background : green }
+p { color : red  }
+
+</style>
+</body>
+
+<body>
+<h1 style=`color:blue;background:yellow`>Heading styled by CSS </h1>
+<h2 style="color:white;background:green`>Sub-Heading styled by CSS </h2<
+<p>Paragraph styled by CSS</p>
+</body>
+</html>
