@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">  
+  <title> Column spanning example </title>
+<link rel="stylesheet" type="text/css" href="23.03.css">
+</head>
+    
+   
+<body> 
+
+<table id="data">
+    
+    <caption>An Enhanced Table</caption>
+    <tr><td colspan="4">Hearder information</tr>
+    
+    <tr><th><th>Column 1<th>Column 2<th>Column 3</tr>
+    
+    <tr><th>Row 1 <td colspan="1">Cell 1.1<td>Cell 1.2<td>Cell 1.3</td></tr>
+    
+     <tr><th>Row 2 <td colspan="1">Cell 2.1<td><td>Cell 2.3</td></tr>
+         
+     <tr><th>Row 3 <td colspan="2">Cell 3.1<td>Cell 3.2</tr>
+    
+      <tr><th colspan="4">Next section</th></tr>
+
+    
+    <tr><th>Row 4 <td rowspan="1">Cell 4.1<td rowspan="1">Cell 4.2<td rowspan="1">Cell 4.3</td></tr>
+    
+    
+     <tr><th>Row 5 <td colspan="1">Cell 5.1<td rowspan="2" colspan="2">Cell 5.2</tr>
+    
+    <tr><th>Row 6 <td colspan="1">Cell 6.1</tr>
+      
+   
+     <tr><td colspan="4">Footer information</tr>
+    
+
+
+    
+    
+</table>
+       
+</body>    
+</html>
+
+---
+
+table#data { width:580px; font-family: sans-serif; border: 5px solid black;}
+table#data td,th {border: 1px solid black; }
+
+table#data td[colspan="2"]{background: aqua; }
+
+table#data td[rowspan="2"]{background: lime; }
+table#data td[rowspan="1"]{background: aqua; }
